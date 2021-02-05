@@ -17,15 +17,17 @@ nav {
       display: flex;
       align-items: center;
       justify-content: center;
-      position: fixed;
+      
       background: hsla(0, 0%, 100%, .98);
+      margin: 0;
+      width: 100%;
 }
 
 main {
       padding-top: 150px;
 }
 
-ul {
+nav ul {
       display: flex;
       list-style-type: none;
       margin-left: auto;
@@ -49,14 +51,14 @@ a {
 }
 
 a:hover {
-      color: #00b39b;
+      color: #C3A255;
 }
 
 
 
 
 .logo {
-      margin-left: 250px;
+      margin-left: 100px;
       width: 188px;
       height: 80px;
 
@@ -65,7 +67,7 @@ a:hover {
 .icons {
       font-size: 24px;
       padding-left: 50px;
-      margin-left: 200px;
+      margin-right: 100px;
 }
 
 .Products{
@@ -84,7 +86,7 @@ a:hover {
         justify-content: center;
       text-align: center;
       margin-top: 20px;
-      gap: 3%;
+      gap: 7%;
 }
 
 
@@ -145,4 +147,296 @@ a:hover {
 }
 .btn-products a:hover {
 border: 2px solid #BE9242;
+}
+.Featured{
+      border: 1px solid black;
+      float: right;
+      margin-right: 337px;
+      margin-top: 100px;
+      width: 203px;
+      height: 58px;
+      margin-bottom: 100px;
+
+}
+
+.Featured span{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+}
+
+.container{
+      width: 100%;
+      display: flex;
+      margin-top: 100px;
+}
+.side {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      height: auto;
+      margin-left: 100px;
+      padding-top:50px;
+      float: left;
+      font-style: italic;
+      
+}
+
+
+.sizeOption{
+      display: flex;
+      gap: 3%;
+      margin-top: 25px;
+}
+.sizeOption div span{
+      margin-top: 25px;
+}
+.sizes{
+      display: flex;
+gap: 10%;    
+}
+.sizes span{
+      display: block;
+      color: rgb(128, 128, 128);
+      text-align: center;
+      font-size: 21px;
+      border: 1px solid gray;
+      width: 40px;
+      height: 30px;
+      
+}
+
+
+.vl {
+      border-left: 4px solid #BE9242;
+      height:70px;
+      width: 5px;
+}
+
+.prices{
+      display: flex;
+      flex-direction: column;
+      margin-top: 25px;
+}
+.fa-star{
+      color: gray;
+}
+.checked {
+      color: #FFC100;
+      }
+
+
+
+
+/* card css */
+
+
+.flex {
+      display: flex;
+      float: right;
+      flex-wrap: wrap;
+      width: 1100px;
+}
+
+.card {
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 210px 210px 80px;
+      grid-template-areas: "image""text";
+      border-radius: 18px;
+      background: white;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+      font-family: roboto;
+      text-align: center;
+      transition: 0.5s ease;
+      cursor: pointer;
+      margin: 30px;
+}
+
+.card-image {
+      grid-area: image;
+}
+
+.card-text {
+      grid-area: text;
+}
+
+.card-stats {
+      grid-area: stats;
+}
+
+
+.card-image {
+      grid-area: image;
+      background: url("img/Groupe_139.png");
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      background-size: cover;
+}
+
+.card-text {
+      grid-area: text;
+      margin: 25px;
+}
+
+
+
+.card-text p {
+      color: grey;
+      font-size: 15px;
+      font-weight: 300;
+}
+
+.card-text h2 {
+      margin-top: 0px;
+      font-size: 28px;
+}
+
+
+.card:hover {
+      transform: scale(1.15);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+/* Footer */
+
+
+
+ul {
+      list-style: none;
+      padding-left: 0;
+}
+
+footer {
+      background-color: #555;
+      color: #bbb;
+      line-height: 1.5;
+}
+
+footer a {
+      text-decoration: none;
+      color: #eee;
+}
+
+a:hover {
+      text-decoration: underline;
+}
+
+.ft-title {
+      color: #fff;
+      font-family: "Merriweather", serif;
+      font-size: 1.375rem;
+      padding-bottom: 0.625rem;
+      display: block;
+      margin-left: 50px;
+      margin-right: auto;
+}
+
+
+
+/* Footer main */
+.ft-main {
+      padding: 1.25rem 1.875rem;
+      display: flex;
+      flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 29.8125rem
+
+      /* 477px */
+) {
+      .ft-main {
+            justify-content: space-evenly;
+      }
+}
+
+@media only screen and (min-width: 77.5rem
+
+      /* 1240px */
+) {
+      .ft-main {
+            justify-content: space-evenly;
+      }
+}
+
+.ft-main-item {
+      padding: 1.25rem;
+      min-width: 12.5rem;
+}
+.ft-main-item ul {
+      display: flex;
+      flex-direction: column;
+}
+
+/* Footer main | Newsletter form */
+form {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+input[type="email"] {
+      border: 0;
+      padding: 0.625rem;
+      margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+      background-color: #C3A255;
+      color: #fff;
+      cursor: pointer;
+      border: 0;
+      padding: 0.625rem 0.9375rem;
+      margin-top: 0.3125rem;
+}
+
+/* Footer social */
+.ft-social {
+      padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list {
+      display: flex;
+      justify-content: center;
+      border-top: 1px #777 solid;
+      padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+      margin: 0.5rem;
+      font-size: 2.25rem;
+}
+
+/* Footer legal */
+.ft-legal {
+      padding: 0.9375rem 1.875rem;
+      background-color: #333;
+}
+
+.ft-legal-list {
+      
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 560px;
+      text-align: center;
+      padding-bottom: 25px;
+      font-size: 16px;
+}
+
+.ft-legal-list li {
+      margin: 0.125rem 0.625rem;
+      white-space: nowrap;
+}
+
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+      flex: 1;
 }
