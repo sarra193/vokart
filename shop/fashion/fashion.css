@@ -1,0 +1,148 @@
+@font-face {
+      font-family: "CustomFont";
+      src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+      src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+            url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+            url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+}
+
+body {
+      margin: 0;
+}
+
+
+
+
+nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      background: hsla(0, 0%, 100%, .98);
+}
+
+main {
+      padding-top: 150px;
+}
+
+ul {
+      display: flex;
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+}
+
+li {
+      padding-left: 50px;
+
+      float: right;
+}
+
+
+
+a {
+      text-decoration: none;
+      color: black;
+}
+
+a:hover {
+      color: #00b39b;
+}
+
+
+
+
+.logo {
+      margin-left: 250px;
+      width: 188px;
+      height: 80px;
+
+}
+
+.icons {
+      font-size: 24px;
+      padding-left: 50px;
+      margin-left: 200px;
+}
+
+.Products{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
+}
+
+.btn-products{
+      display: flex;
+     justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+      text-align: center;
+      margin-top: 20px;
+      gap: 3%;
+}
+
+
+.btn-products a {
+      
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid gray;
+}
+
+.btn-products a:focus {
+      border: 2px solid #BE9242;
+
+}
+
+.btn-products .fashion{
+            background-image: url("img/fashion-icon-png-19.png");
+            background-repeat: no-repeat;
+            background-size: 60px 60px;
+            background-position: center;
+}
+
+.btn-products .utensils {
+      background-image: url("img/ID70888017-restaurant-cutlery-.png");
+      background-repeat: no-repeat;
+      background-size: 60px 60px;
+      background-position: center;
+}
+
+.btn-products .lighting {
+      background-image: url("img/ID051-512_1.png");
+      background-repeat: no-repeat;
+      background-size: 60px 60px;
+      background-position: center;
+}
+
+.btn-products .healthCare {
+      background-image: url("img/healthCare.png");
+      background-repeat: no-repeat;
+      background-size: 60px 60px;
+      background-position: center;
+}
+
+.btn-products .ceramic {
+      background-image: url("img/ceramic.png");
+      background-repeat: no-repeat;
+      background-size: 60px 60px;
+      background-position: center;
+}
+.btn-products a:hover {
+border: 2px solid #BE9242;
+}

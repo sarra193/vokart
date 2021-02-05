@@ -1,0 +1,69 @@
+@font-face {
+      font-family: "CustomFont";
+      src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+      src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+            url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+            url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+}
+
+body{
+      margin:0;
+}
+
+
+
+
+nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      background: hsla(0, 0%, 100%, .98);
+}
+
+main {
+      padding-top: 150px;
+}
+
+ul {
+      display:flex;
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+}
+
+li {
+      padding-left: 50px;
+
+      float: right;
+}
+
+
+
+a {
+      text-decoration: none;
+      color: black;
+}
+
+a:hover {
+      color: #00b39b;
+}
+
+
+
+
+.logo {
+      margin-left: 250px;
+      width: 188px;
+      height: 80px;
+
+}
+
+.icons{
+      font-size:24px;
+      padding-left: 50px;
+      margin-left: 200px;
+}
