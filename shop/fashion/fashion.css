@@ -255,6 +255,7 @@ gap: 10%;
       transition: 0.5s ease;
       cursor: pointer;
       margin: 30px;
+
 }
 
 .card-image {
@@ -265,30 +266,32 @@ gap: 10%;
       grid-area: text;
 }
 
-.card-stats {
-      grid-area: stats;
-}
+
 
 
 .card-image {
       grid-area: image;
-      background: url("img/Groupe_139.png");
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
-      background-size: cover;
+      height: 345px;
+     background-repeat:no-repeat;
+     background-size: cover;
 }
 
 .card-text {
       grid-area: text;
       margin: 25px;
+      color: gray;
+      margin-top: 170px;
 }
 
 
 
 .card-text p {
-      color: grey;
+      color: rgba(190, 146, 66, 1);
       font-size: 15px;
       font-weight: 300;
+      
 }
 
 .card-text h2 {
