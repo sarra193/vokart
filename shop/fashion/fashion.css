@@ -1,10 +1,4 @@
-@font-face {
-      font-family: "CustomFont";
-      src: url("https://yoursite.com/css/fonts/CustomFont.eot");
-      src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
-            url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
-            url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
-}
+
 
 body {
       margin: 0;
@@ -174,7 +168,7 @@ a:hover {
             background-repeat: no-repeat;
             background-size: 60px 60px;
             background-position: center;
-              border: 2px solid #BE9242;
+            border: 2px solid #BE9242;
 }
 
 .btn-products .utensils {
@@ -220,6 +214,43 @@ a:hover {
 .btn-products a:hover {
       border: 2px solid #BE9242;
 }
+
+
+
+
+.dropdown {
+      position: relative;
+      display: inline-block;
+}
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      padding: 12px 16px;
+      z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
