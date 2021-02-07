@@ -1,0 +1,151 @@
+body {
+      margin: 0;
+}
+
+
+
+
+nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      background: hsla(0, 0%, 100%, .98);
+      margin: 0;
+      width: 100%;
+}
+
+main {
+      padding-top: 150px;
+}
+
+nav ul {
+      display: flex;
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+}
+
+nav li {
+      padding-left: 50px;
+      float: right;
+}
+
+
+
+nav a {
+      text-decoration: none;
+      color: black;
+}
+
+a:hover {
+      color: #C3A255;
+}
+
+.logo {
+      margin-left: 150px;
+      width: 188px;
+      height: 80px;
+
+}
+
+.logo img {
+      width: 125px;
+      height: 75px;
+      margin-top: 5px;
+}
+
+
+.container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 75px;
+      margin-right: 75px;
+}
+
+.panier{
+      background-color: #FAFAFA;
+}
+
+
+
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+
+}
+
+.main {
+      width: 450px;
+      height: 350px;
+      background-color: #fff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-left: 250px;
+      margin-top: 200px;
+}
+
+.content p {
+      font-size: 13px;
+      color: rgb(182, 182, 182);
+}
+
+.sub {
+      border-radius: 10px;
+      position: absolute;
+      top: 35px;
+      left: -50px;
+      width: 230px;
+      height: 280px;
+      background-color: #BE9242;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+      width: 240px;
+      position: absolute;
+      top: 20px;
+      right: 10px;
+}
+
+form input {
+      padding: 10px 10px;
+      margin-bottom: 10px;
+      width: 80%;
+      border: none;
+      background-color: #e5ece7;
+      border-radius: 10px;
+      outline: none;
+}
+
+
+
+.content a {
+      width: 200px;
+      background-color: #BE9242;
+      cursor: pointer;
+      margin-top: 5px;
+      color: #fff;
+      border-radius: 10px;
+      text-align: center;
+
+}
+
+.sub-content {
+      position: absolute;
+      left: 20px;
+      top: 28px;
+      color: #fff;
+}
+
+.sub-content p {
+      font-size: 15px;
+      /* color:rgb(182, 182, 182); */
+}

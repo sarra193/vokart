@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+      <title>Utensils</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+            <!-- Main Style -->
+      <link rel="stylesheet" type="text/css" href="utensilsDesc.css" >
+</head>
+
+
+<body>
+      <!-- nav bar start here -->
+      <header>
+      <nav >  
+
+      <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Vokart"></a>
+      </div>
+
+            <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="../fashion/fashion.html">shop</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#"> About Us </a></li>
+            </ul>
+
+
+            <div class="icons">
+                  <div class="search-box">
+                  <input type="text" placeholder=" "/><span></span>
+                  </div>
+                  <span class="glyphicon glyphicon-heart-empty"></span>
+                  <i class="fas fa-shopping-bag"></i>
+                  <span class="glyphicon glyphicon-user"></span>
+                  
+            </div>
+      </nav>
+</header>
+            <!-- NavBar End Here -->
+
+
+
+            <main>
+                  <!-- Title -->
+
+
+                  <div class="Products">
+                        <span>Home</span><span style="color: gray;">|</span><span>Products</span><span style="color: gray;">|</span>
+                        <span style="color: #C3A255;">Utensils</span>
+
+                  </div>
+
+
+
+                  <section class="container">
+                        <img src="img/Groupe_533.png" alt="" />
+
+
+                        <div class="desc">
+                              <span> Round Board Made by The King Olive Wood </span><br><br>
+                              <span> Availability: </span> <span style="color: #C3A255;">In Stock </span><br><br>
+                              <span style="color: gray;"> DTN41.80 </span><br><br>
+                              <span> Hurry up! only</span><span style="color: #C3A255;">20</span><span>  products left in stock! </span><br><br>
+                              <p> Fusce vel tristique nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut vitae auctor turpis </p><br><br>
+                              
+                              <span>Quntity</span><br><br><br>
+                              <div class="qty-input">
+                              <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
+                              <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+                              <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
+                              </div><br><br><br><br>
+                              <span>Share</span><br><br>
+                              <!--  <section class="ft-social">
+                                    <ul class="ft-social-list">
+                                          <li><a href="#"><img scr="" alt="paypal"></a></li>
+                                          <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                          
+                                    
+                                    </ul>
+                                    </section> -->
+                        </div>
+                  </section>
+
+                  <section class="toggle">
+                  <div class="btn-toggle">
+                  <span class="btn-cam1">DESCRIPTION
+                  </span>
+                  <span class="btn-cam2"> COMMENT</span>
+                  </div>
+
+
+
+
+                  <div class="cam1">
+                        <div class="description">
+                        <h3>More Detail</h3>
+                              <p> 
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                              Lorem Ipsum has been the ‘s standard dummy text. Lorem Ipsumum is simply dummy text.
+                              type here your detail one by one li more add
+                              has been the industry’s standard dummy text ever since. Lorem Ips
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ‘s standard dummy text. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is simply dummy text.
+                              </p>
+                              <h3>Key Specification</h3>
+                              <p>
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                              Lorem Ipsum has been the ‘s standard dummy text. Lorem Ipsumum is simply dummy text.
+                              type here your detail one by one li more add
+                              has been the industry’s standard dummy text ever since. Lorem Ips
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ‘s standard dummy text. Lorem Ipsum has been the industry’s standard dummy text ever since. Lorem Ipsum is simply dummy text.
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ‘s standard dummy text.
+                              </p>
+
+                  </div>
+                        
+                  </div>
+                  
+                        <div class="cam2">
+                        <div class="description">
+                        <h3>0 comment</h3>
+                        <div style="display: flex; flex-wrap: wrap;">
+                        <img scr="" alt="" style="width: 150px; height: 150px; margin-left: 50px;" />
+                                          <div class="row">
+                                          <div class="col-6">
+                                          <div class="comment">
+                                          <p v-for="items in item" v-text="items"></p>
+                                          </div><!--End Comment-->
+                                          </div><!--End col -->
+                                          </div><!-- End row -->
+                                          <div class="row">
+                                          <div class="col-6">
+                                          <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                                          <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                                          </div><!-- End col -->
+                                          </div><!--End Row -->
+                                    </div>
+                             
+
+                  </div>
+                        
+                  </div>
+
+                  </section>
+
+
+
+                       
+      </main>
+
+     <div class="related">
+      <h3>Related Product</h3>         
+      <div class="flex">
+
+      <div class="card">
+      <div class="card-image" style="background-image:url(img/Groupe_535.png);"></div>
+      <div class="card-text">
+      <span class="date"> Echarpe Soie</span>
+      <h2>Made by</h2>
+      <p>Lamasset Harir</p>
+      </div>
+      </div>
+
+      <div class="card">
+      <div class="card-image" style="background-image:url(img/Rectangle_465.png);"></div>
+      <div class="card-text">
+      <span class="date"> Echarpe Soie</span>
+      <h2>Made by</h2>
+      <p>Lamasset Harir</p>
+      </div>
+      </div>
+
+
+      <div class="card">
+      <div class="card-image" style="background-image:url(img/Groupe_537.png);"></div>
+      <div class="card-text">
+      <span class="date"> Echarpe Soie</span>
+      <h2>Made by</h2>
+      <p>Lamasset Harir</p>
+      </div>
+      </div>
+
+
+      <div class="card">
+      <div class="card-image" style="background-image:url(img/Rectangle_465.png);"></div>
+      <div class="card-text">
+      <span class="date"> Echarpe Soie</span>
+      <h2>Made by</h2>
+      <p>Lamasset Harir</p>
+      </div>
+      </div>
+
+
+
+
+
+      </div>
+
+     </div>
+            
+
+
+   
+
+
+
+
+<footer>
+  <!-- Footer main -->
+  <section class="ft-main">
+    <div class="ft-main-item">
+      <h2 class="ft-title">INFORMATION</h2>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Price Drop</a></li>
+        <li><a href="#">New Products</a></li>
+        <li><a href="#">Best Sales</a></li>
+        <li><a href="#">Contact Us </a></li>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title"> MY ACCOUNT</h2>
+      <ul>
+        <li><a href="#">Personal Info</a></li>
+        <li><a href="#">Orders History</a></li>
+        <li><a href="#">My Cart</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Blog </a></li>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title"> OUR COMPANY</h2>
+      <ul>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">Legal Notice</a></li>
+        <li><a href="#">Secure Payment</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Wishlist</a></li>
+      </ul>
+    </div>
+
+      <div class="ft-main-item">
+      <h2 class="ft-title">  CONTACT US</h2>
+      <ul>
+        <li><a href="#">Lorem ipsum amet<br>adipiscing elit, sed</a></li>
+        <li><a href="#">
+(+33) 1 23 45 67 89<br>
+demo@demo.com</a></li>
+        
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <h2 class="ft-title">Stay Updated</h2>
+      <p>Subscribe to our newsletter to get our latest news.</p>
+      <form>
+        <input type="email" name="email" placeholder="Enter email address">
+        <input type="submit" value="Subscribe">
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer social -->
+  <section class="ft-social">
+    <ul class="ft-social-list">
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-google"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      
+    
+    </ul>
+  </section>
+
+  <!-- Footer legal -->
+  <section class="ft-legal">
+    <ul class="ft-legal-list">
+      <li>&copy;  Copyright 2020 VOKART. all rights reserved </li>
+    </ul>
+  </section>
+</footer>
+
+<script>
+      $('.cam2').hide();
+      $('.btn-cam1').on('click',
+      function()
+      {
+            $('.cam1').show();  
+            $('.cam2').hide();
+
+            
+      }
+);
+     $('.btn-cam2').on('click',
+      function()
+      {
+            $('.cam2').show()
+             $('.cam1').hide()
+      }
+);
+
+var QtyInput = (function () {
+	var $qtyInputs = $(".qty-input");
+
+	if (!$qtyInputs.length) {
+		return;
+	}
+
+	var $inputs = $qtyInputs.find(".product-qty");
+	var $countBtn = $qtyInputs.find(".qty-count");
+	var qtyMin = parseInt($inputs.attr("min"));
+	var qtyMax = parseInt($inputs.attr("max"));
+
+	$inputs.change(function () {
+		var $this = $(this);
+		var $minusBtn = $this.siblings(".qty-count--minus");
+		var $addBtn = $this.siblings(".qty-count--add");
+		var qty = parseInt($this.val());
+
+		if (isNaN(qty) || qty <= qtyMin) {
+			$this.val(qtyMin);
+			$minusBtn.attr("disabled", true);
+		} else {
+			$minusBtn.attr("disabled", false);
+			
+			if(qty >= qtyMax){
+				$this.val(qtyMax);
+				$addBtn.attr('disabled', true);
+			} else {
+				$this.val(qty);
+				$addBtn.attr('disabled', false);
+			}
+		}
+	});
+
+	$countBtn.click(function () {
+		var operator = this.dataset.action;
+		var $this = $(this);
+		var $input = $this.siblings(".product-qty");
+		var qty = parseInt($input.val());
+
+		if (operator == "add") {
+			qty += 1;
+			if (qty >= qtyMin + 1) {
+				$this.siblings(".qty-count--minus").attr("disabled", false);
+			}
+
+			if (qty >= qtyMax) {
+				$this.attr("disabled", true);
+			}
+		} else {
+			qty = qty <= qtyMin ? qtyMin : (qty -= 1);
+			
+			if (qty == qtyMin) {
+				$this.attr("disabled", true);
+			}
+
+			if (qty < qtyMax) {
+				$this.siblings(".qty-count--add").attr("disabled", false);
+			}
+		}
+
+		$input.val(qty);
+	});
+})();
+
+</script>
+</body>
+
+
+
+</html>
