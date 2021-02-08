@@ -23,7 +23,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
             <!-- Main Style -->
-      <link rel="stylesheet" type="text/css" href="shipping.css" >
+      <link rel="stylesheet" type="text/css" href="cart.css" >
 </head>
 
 
@@ -33,12 +33,12 @@
             <nav >  
 
             <div class="logo">
-                  <a href="../../index.html"><img src="img/logo.png" alt="Vokart"></a>
+                  <a href="index.html"><img src="img/logo.png" alt="Vokart"></a>
             </div>
 
                   <ul>
-                        <li><a href="../../index.html">Home</a></li>
-                        <li><a href="../../shop/fashion/fashion.html">shop</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../fashion/fashion.html">shop</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#"> About Us </a></li>
@@ -49,58 +49,57 @@
 </header>
 
 
-<main >
+<main class="container">
 
-      
-<div style="margin-left: 150px; margin-bottom:25px;"> 
-       <span >Cart > Information ></span> <span style="color: #BE9242;"> Shipping </span>  <span>> Payment</span><br>
-</div>
-<div class="container">
+<div class="contactInformation">
+<span style="color: #BE9242;">Cart</span><span>>Information > Shipping > Payment</span>
 
-<div style="flex-grow: 2; margin-right: 25px;" >
-<div class="bs-example " >
-      <table class="table table-striped ">
-      
-      <thead>
-            <tr>
-            <th>Contact</th>
-            <th>user@gmail.com</th>
-            <th style="color: #BE9242;">Change</th>
+<h2>Contact information</h2><br>
+
+
+      <div style="display: flex;">
+      <span class="glyphicon glyphicon-user" style="width: 50px; height:50px; font-size: 35px;"> </span>
+      <div>
+            <span>User     (user@gmail.com)</span><br>
+            <span style="color: #BE9242;">Log Out</span>
+      </div>
+
+      </div><br><br>
+
+<input type="checkbox" id="scales" name="scales" checked/>
+<label for="scales">Keep me up to date on news and exclusive offers</label>
+
+
+
+
+<div class="main">
+
+    <div class="content">
+      <h2>Shipping adress</h2>
+
+
+      <form action="">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Address">
+        <input type="number" placeholder="Phone Number">
+        <input type="text" placeholder="City">
             
-            </tr>
-      </thead>
-      <tbody>
-      
-      <tr>
-      <th>Ship to</th>
-            <th>Ben arous-yassminett-cite elfol </th>
-            <th style="color: #BE9242;">Change</th>
-      </tr>
-      
-       <tr>
-      <th>Method</th>
-            <th>Standard DTN 47.00</th>
-            
-      </tr>
-      </tbody>
-      
-      </table>
-</div>
-<br>
-<br>
+        <a href="../Information/Information.html"  >Continue to Shipping</a>
+      </form>
 
-<br>
-<br>
-<span>Payment</span>
-<br>
-<br>
+    </div>
 
-<br>
-<br>
-<div class="content">
-<a href="../Information/Information.html"  >Back to Information</a>
-</div>
 
+    <div class="sub">
+        <div class="sub-content">
+          <h1>Contact </h1>
+
+          <p><i class="fas fa-map-marker-alt"></i> Enter Your Address</p>
+          
+        </div>
+    </div>
+  </div>
 
 </div>
 
@@ -111,7 +110,7 @@
 
 <div class="panier">
      <div style="display: flex;">
-      <span style="width: 150px; height:150px; background-image: url(img/Groupe_533.png);background-size: cover; margin-right: 25px;"></span>
+      <span style="width: 150px; height:150px; background-size: cover; background-image: url(img/Groupe_533.png); margin-right: 25px;"></span>
       <div>
             <span>Zen lamp Made by Khachaba</span><br>
            <span>Availability:</span> <span style="color: #BE9242;">In Stock</span>
@@ -141,7 +140,7 @@
 
 
 </div>
-</div>
+
 
 
 

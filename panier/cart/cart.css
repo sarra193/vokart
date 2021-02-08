@@ -64,12 +64,12 @@ a:hover {
       display: flex;
       flex-wrap: wrap;
       height: 500px;
-      
+
 }
 
-.panier{
+.panier {
       background-color: #FAFAFA;
-        flex-grow: 2;
+      flex-grow: 2;
       height: 350px;
 }
 
@@ -112,7 +112,10 @@ body {
 }
 
 .content {
-      
+      width: 240px;
+      position: absolute;
+      top: 20px;
+      right: 10px;
 }
 
 form input {
@@ -125,10 +128,7 @@ form input {
       outline: none;
 }
 
-.content{
-      display: flex;
-      justify-content: space-between;
-}
+
 
 .content a {
       width: 200px;

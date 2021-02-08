@@ -155,6 +155,10 @@ a:hover {
       flex-wrap: wrap;
       width: 1100px;
 }
+.flex2{
+      margin-left:-180px;
+       display: flex;
+}
 
 .card {
       display: grid;
@@ -279,7 +283,7 @@ a:hover {
       width: 80px;
       height: 3px;
       margin-top: 5%;
-      background-color: #eb3b3b;
+      background-color: #BE9242;
 }
 
 .global .container-pai .container-content {
@@ -314,7 +318,7 @@ a:hover {
 }
 
 .global .container-pai .container-content .container-questions ul li a {
-      border-left: solid 3px red;
+      border-left: solid 3px #BE9242;
       border-radius: 3px 3px 3px 3px;
       padding: 3%;
       display: block;
